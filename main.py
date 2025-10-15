@@ -58,3 +58,4 @@ def delete_book(book_id: int):
             books.remove(book)
             return {"message": "Кітап жойылды"}
     raise HTTPException(status_code=404, detail="Кітап табылмады")
+
